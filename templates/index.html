@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> students address tatamotors </title>
+</head>
+<body>
+	
+		
+		{% for i in ps %}
+		
+		
+			<h1> {{i.ROLLNO}} </h1>
+
+			<h2> {{i.NAMES}} </h2>
+
+			<h1> {{i.FATHERNAME}}  </h1>
+
+			<h3> {{i.STUDYING}} </h3>
+
+			<h4> {{i.ADDRESS}} </h4>
+
+			<h5> {{i.PHONENO}} </h5>
+			<img src="{{ps.img}}">
+		
+	    {% endfor %}
+</body>	    
